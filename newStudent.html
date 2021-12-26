@@ -1,0 +1,73 @@
+<html>
+<head>
+    <title>new student</title>
+    <style>
+        fieldset{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+
+<body>
+<nav>
+    <a href="index.html" target="_self">Home</a>
+    <a href="studentlist.html" target="_blank">Student list</a>
+    <a href="newstudent.html" target="_blank">New student</a>
+</nav>
+
+<section>
+<fieldset>
+ <legend>personal Information</legend>
+  
+ <label>Full Name:
+  <input type="text" id="Name" name="Name"></p>
+ </label>
+
+ <label>Birthdate:
+  <input type="date" id="Bdate" name="Birthdate"></p>
+ </label>
+
+ <label>Gender:
+  <input type="radio" id="radio" name="radio" >male
+  <input type="radio" id="radio" name="radio">female</p>
+ </label>
+</fieldset>
+
+<fieldset>
+ <legend>Contact Information</legend>
+
+ <label>Email:
+  <input type="email" id="email" name="email"></p>
+ </label>
+ 
+ <label>Phone:
+  <input type="number" id="number" name="number"></p>
+ </label>
+ 
+ <label>Address:
+  <textarea id="Address" name="Address"></textarea>
+ </label>
+</fieldset>
+
+<fieldset>
+<legend>university Information</legend>
+
+<label>Choose Your Faculty:
+ <select id="faculty" name="faculty">
+    <option value="Faculty of Pharmacy">Faculty of Pharmacy</option>
+    <option value="Faculty of Oral & Dental Medicine">Faculty of Oral & Dental Medicine</option>
+    <option value="Faculty of Engineering & Technology">Faculty of Engineering & Technology</option>
+    <option value="Faculty of Economics & Political Science">Faculty of Economics & Political Science</option>
+    <option value="Faculty of Computers & Information Technology">Faculty of Computers & Information Technology</option>
+    <option value="Faculty of Commerce & Business Administration">Faculty of Commerce & Business Administration</option>
+    <option value="English Language Department">English Language Department</option>
+ </select>
+</label>
+</fieldset>
+<input type="submit" value="add">
+
+
+</section>
+</body>
+
+</html>
